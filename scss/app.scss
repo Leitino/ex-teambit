@@ -1,3 +1,11 @@
+@for $marginTop from 15 through 60{
+  .margin-top-#{$marginTop}{
+      margin-top: #{$marginTop}px;
+    }
+
+}
+
+
 @mixin display-flex{
   display: flex;
   align-items: center;
