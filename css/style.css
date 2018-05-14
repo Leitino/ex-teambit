@@ -26,6 +26,42 @@ body {
   height: 100%;
 }
 
+h1 {
+  font-size: 20px;
+  font-weight: lighter;
+  color: #58402c;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: lighter;
+  color: #58402c;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: lighter;
+  color: #58402c;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: lighter;
+  color: #58402c;
+}
+
+h5 {
+  font-size: 20px;
+  font-weight: lighter;
+  color: #58402c;
+}
+
+h6 {
+  font-size: 20px;
+  font-weight: lighter;
+  color: #58402c;
+}
+
 header {
   width: 80%;
   height: 70px;

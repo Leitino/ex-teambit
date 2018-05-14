@@ -15,6 +15,8 @@ $marginTop:60;
   $marginTop : $marginTop - 15;
 };
 
+
+
 @mixin display-flex{
   display: flex;
   align-items: center;
@@ -23,4 +25,15 @@ $marginTop:60;
 
 @import "common";
 @import "variables";
+
+//ciclo each per standarizzare gli H//
+
+@each $item in h1, h2, h3, h4, h5, h6{
+  #{$item}{
+    font-size: 20px;
+    font-weight: lighter;
+    color: $font_primario;
+  }
+}
+
 @import "partials/_header";
