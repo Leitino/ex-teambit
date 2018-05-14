@@ -1,10 +1,12 @@
+//ciclo for per i margin-top//
+
 //@for $marginTop from 15 through 60{
   //.margin-top-#{$marginTop}{
   //    margin-top: #{$marginTop}px;
   //  }
 //}
 
-
+//ciclo while per margin-to//
 $marginTop:60;
 @while $marginTop > 0{
   .margin-top-#{$marginTop}{
