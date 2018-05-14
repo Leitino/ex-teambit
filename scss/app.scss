@@ -1,0 +1,9 @@
+@mixin display-flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@import "common";
+@import "variables";
+@import "partials/_header";
