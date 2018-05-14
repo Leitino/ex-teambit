@@ -1,10 +1,17 @@
-@for $marginTop from 15 through 60{
+//@for $marginTop from 15 through 60{
+  //.margin-top-#{$marginTop}{
+  //    margin-top: #{$marginTop}px;
+  //  }
+//}
+
+
+$marginTop:60;
+@while $marginTop > 0{
   .margin-top-#{$marginTop}{
-      margin-top: #{$marginTop}px;
-    }
-
-}
-
+    margin-top: 1px * $marginTop;
+  }
+  $marginTop : $marginTop - 15;
+};
 
 @mixin display-flex{
   display: flex;
